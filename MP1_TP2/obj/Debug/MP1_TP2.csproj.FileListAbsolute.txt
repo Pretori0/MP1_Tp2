@@ -1,0 +1,20 @@
+D:\UNAJ_2025\MP1\MP1_TP2\MP1_TP2\obj\Debug\MP1_TP2.csprojResolveAssemblyReference.cache
+E:\MP1_TP2\MP1_TP2\obj\Debug\MP1_TP2.csprojResolveAssemblyReference.cache
+E:\MP1_TP2\MP1_TP2\bin\Debug\MP1_TP2.exe
+E:\MP1_TP2\MP1_TP2\bin\Debug\MP1_TP2.pdb
+E:\MP1_TP2\MP1_TP2\obj\Debug\MP1_TP2.exe
+E:\MP1_TP2\MP1_TP2\obj\Debug\MP1_TP2.pdb
+D:\UNAJ_2025\MP1\MP1_TP2\MP1_TP2\obj\Debug\MP1_TP2.exe
+D:\UNAJ_2025\MP1\MP1_TP2\MP1_TP2\obj\Debug\MP1_TP2.pdb
+D:\UNAJ_2025\MP1\MP1_TP2\MP1_TP2\bin\Debug\MP1_TP2.exe
+D:\UNAJ_2025\MP1\MP1_TP2\MP1_TP2\bin\Debug\MP1_TP2.pdb
+D:\UNAJ_2025\MP1_TP2\MP1_TP2\obj\Debug\MP1_TP2.csprojResolveAssemblyReference.cache
+D:\UNAJ_2025\MP1_TP2\MP1_TP2\obj\Debug\MP1_TP2.exe
+D:\UNAJ_2025\MP1_TP2\MP1_TP2\bin\Debug\MP1_TP2.exe
+D:\UNAJ_2025\MP1_TP2\MP1_TP2\bin\Debug\MP1_TP2.pdb
+D:\UNAJ_2025\MP1_TP2\MP1_TP2\obj\Debug\MP1_TP2.pdb
+D:\UNAJ_2025\MP1_TP2 - copia\MP1_TP2\bin\Debug\MP1_TP2.exe
+D:\UNAJ_2025\MP1_TP2 - copia\MP1_TP2\bin\Debug\MP1_TP2.pdb
+D:\UNAJ_2025\MP1_TP2 - copia\MP1_TP2\obj\Debug\MP1_TP2.csprojResolveAssemblyReference.cache
+D:\UNAJ_2025\MP1_TP2 - copia\MP1_TP2\obj\Debug\MP1_TP2.exe
+D:\UNAJ_2025\MP1_TP2 - copia\MP1_TP2\obj\Debug\MP1_TP2.pdb
