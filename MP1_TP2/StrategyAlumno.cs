@@ -15,7 +15,8 @@ namespace MP1_TP2
 	/// </summary>
 	public interface StrategyAlumno
 	{
-		void comparar(Alumno alu, Alumno blu);
+		 int comparar(Alumno alu, Alumno blu);
+		
 		
 	}
 }

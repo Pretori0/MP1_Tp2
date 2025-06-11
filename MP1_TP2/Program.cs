@@ -95,19 +95,18 @@ namespace MP1_TP2
 			Console.WriteLine(coleccionable.cuantos());
 			Console.WriteLine(((Alumno)coleccionable.minimo()).getDni);
 			Console.WriteLine(((Alumno)coleccionable.maximo()).getDni);
-            Console.WriteLine("Ingrese numero");
+            Console.WriteLine("Ingrese numero Legajo");
             
-           
             int ver = Convert.ToInt32(Console.ReadLine());
-            IComparable comp = new Numero(ver);
-            
-            if (coleccionable.contiene(comp))
+          //IComparable comp = new Numero(ver);
+            IComparable alumAux=new Alumno("alumnoAux",ver,ver,ver);
+            if (coleccionable.contiene(alumAux))
             {
-                Console.WriteLine("El numero esta en la coleccion");
+                Console.WriteLine("El legajo esta en la coleccion");
             }
             else
             {
-                Console.WriteLine("el elemento no esta en la coleccion");
+                Console.WriteLine("el legajo no esta en la coleccion");
             }
         }
 		
@@ -154,7 +153,7 @@ namespace MP1_TP2
 			
 			Iterador iteraStrategy = coleccionable.crearIterador();
 			while(!iteraStrategy.fin()){
-				((Alumno)iteraStrategy.actual()).Comparar = comparar2;
+				((Alumno)iteraStrategy.actual()).Estrategia = comparar2;
 				Console.WriteLine("Cambiando de estrategia a {0}",(iteraStrategy.actual()).ToString());
 				iteraStrategy.siguiente();
 			}

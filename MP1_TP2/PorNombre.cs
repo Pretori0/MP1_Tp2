@@ -19,14 +19,17 @@ namespace MP1_TP2
 		{
 		}
 		
-		public void comparar(Alumno alu, Alumno blu)
+		public int comparar(Alumno alu, Alumno blu)
 		{
-			if(alu.getNombre == blu.getNombre){
-				
-				Console.WriteLine("Los Nombres son IGUALES");
-			}else{
-				Console.WriteLine("Los Nombres Son DIFERENTES");
+			if((blu.getNombre).Length == (alu.getNombre).Length){
+				return 1;
 			}
+			if((blu.getNombre).Length < (alu.getNombre).Length){
+
+			return 2;
+			}
+			
+			return 3;
 		}
 	}
 }

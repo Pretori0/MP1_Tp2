@@ -20,21 +20,18 @@ namespace MP1_TP2
 		{
 		}
 		
-		public void comparar(Alumno alu, Alumno blu)
+		public int comparar(Alumno alu, Alumno blu)
 		{
 			if(blu.getPromedio == alu.getPromedio){
-				Console.WriteLine("Los promedios son iguales ");
-				return;
+				return 1;
+			}
+			if(blu.getPromedio < alu.getPromedio){
+
+			return 2;
 			}
 			
-			if(blu.getPromedio < alu.getPromedio){
-				Console.WriteLine("Promedio de {0} es mayor que {1} ",alu.getNombre ,blu.getNombre);
-				return;
-			}
-			if(blu.getPromedio > alu.getPromedio){
-				Console.WriteLine("Promedio de {0} es menor que {1} ",alu.getNombre,blu.getNombre);
-				return;
+			return 3;
 			}
 		}
 	}
-}
+

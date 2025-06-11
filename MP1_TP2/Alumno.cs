@@ -18,13 +18,13 @@ namespace MP1_TP2
 	{
 		int legajo;
 		int promedio;
-		StrategyAlumno comparar;
+		StrategyAlumno estrategia;
 						
 		public Alumno(string n, int d, int l, int p):base(n, d)
 		{
 			this.legajo = l;
 			this.promedio = p;
-			this.comparar = new PorLegajo();
+			this.estrategia = new PorPromedio();
 			
 		}
 		
@@ -39,31 +39,31 @@ namespace MP1_TP2
 		}
 		
 		public override bool sosIgual(IComparable comparable){
-			if( this.getLegajo == ((Numero)comparable).getValor){
-				return true;
-			}
+			int resultado =  estrategia.comparar(this, (Alumno)comparable);
+			if(resultado == 1){return true;}
 			return false;
+			
 		}
 		public override bool sosMenor(IComparable comparable){
-			if (this.getLegajo > ((Alumno)comparable).getLegajo){
-				return true;
-			}
+			int resultado =  estrategia.comparar(this,(Alumno)comparable);
+			if(resultado == 2){return true;}
 			return false;
 		}
 		public override bool sosMayor(IComparable comparable){
-			if(this.getLegajo < ((Alumno)comparable).getLegajo){
-				return true;
-			}
+			int resultado =  estrategia.comparar(this,(Alumno)comparable);
+			if(resultado == 3){return true;}
 			return false;
+
 		}
 		
 		public override string ToString()
 		{
-			return string.Format("[Alumno Legajo={0}, Promedio={1}]", legajo, promedio);
+			return string.Format("[Alumno Legajo={0}, Promedio={1}, Estrategia={2}]", legajo, promedio, estrategia);
 		}
-		
-		public StrategyAlumno Comparar{
-			set{comparar = value;}
+
+				
+		public StrategyAlumno Estrategia{
+			set{estrategia = value;}
 		}
 
 		

@@ -20,18 +20,17 @@ namespace MP1_TP2
 		{
 		}
 		
-		public void comparar(Alumno alu, Alumno blu)
+		public int comparar(Alumno alu, Alumno blu)
 		{
-			if(blu.getLegajo > alu.getLegajo){
-				Console.WriteLine("Legajo de {0} es mayor que Legajo {1} ",blu.getNombre ,alu.getNombre);
-				return;
+			if(blu.getLegajo == alu.getLegajo){
+				return 1;
 			}
 			if(blu.getLegajo < alu.getLegajo){
-			Console.WriteLine("Legajo de {0} es menor que Legajo {1} ",blu.getNombre ,alu.getNombre);
-			return;
+
+			return 2;
 			}
 			
-			Console.WriteLine("Legajos duplicados");return;
+			return 3;
 		}
 	}
 	
