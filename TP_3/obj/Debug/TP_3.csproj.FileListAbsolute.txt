@@ -1,0 +1,5 @@
+D:\UNAJ_2025\MP1_Tp2_correccion\TP_3\bin\Debug\TP_3.exe
+D:\UNAJ_2025\MP1_Tp2_correccion\TP_3\bin\Debug\TP_3.pdb
+D:\UNAJ_2025\MP1_Tp2_correccion\TP_3\obj\Debug\TP_3.csprojResolveAssemblyReference.cache
+D:\UNAJ_2025\MP1_Tp2_correccion\TP_3\obj\Debug\TP_3.exe
+D:\UNAJ_2025\MP1_Tp2_correccion\TP_3\obj\Debug\TP_3.pdb
