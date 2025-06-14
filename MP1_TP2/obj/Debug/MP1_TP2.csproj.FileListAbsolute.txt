@@ -18,3 +18,8 @@ D:\UNAJ_2025\MP1_TP2 - copia\MP1_TP2\bin\Debug\MP1_TP2.pdb
 D:\UNAJ_2025\MP1_TP2 - copia\MP1_TP2\obj\Debug\MP1_TP2.csprojResolveAssemblyReference.cache
 D:\UNAJ_2025\MP1_TP2 - copia\MP1_TP2\obj\Debug\MP1_TP2.exe
 D:\UNAJ_2025\MP1_TP2 - copia\MP1_TP2\obj\Debug\MP1_TP2.pdb
+D:\UNAJ_2025\MP1_Tp2_correccion\MP1_TP2\bin\Debug\MP1_TP2.exe
+D:\UNAJ_2025\MP1_Tp2_correccion\MP1_TP2\bin\Debug\MP1_TP2.pdb
+D:\UNAJ_2025\MP1_Tp2_correccion\MP1_TP2\obj\Debug\MP1_TP2.csprojResolveAssemblyReference.cache
+D:\UNAJ_2025\MP1_Tp2_correccion\MP1_TP2\obj\Debug\MP1_TP2.exe
+D:\UNAJ_2025\MP1_Tp2_correccion\MP1_TP2\obj\Debug\MP1_TP2.pdb
